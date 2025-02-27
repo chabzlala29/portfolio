@@ -124,6 +124,7 @@ const educationInfo = {
     {
       schoolName: "St. Joseph High School",
       logo: require("./assets/images/st-joseph.jpeg"),
+      subHeader: "Mathematics wizard",
       duration: "June 2003 - April 2007"
     }
   ]
@@ -169,9 +170,6 @@ const workExperiences = {
       companylogo: require("./assets/images/mf-kessai.png"),
       date: "July 2024 – Present",
       desc: "Worked as a Senior Software Engineer at MoneyForward Kessai, a fintech company in Japan. I am responsible for developing and maintaining the company's core financial services platform, which is used by millions of users in Japan.",
-      descBullets: [
-        "Developed and maintained Pay for Business application using Ruby on Rails and React",
-      ]
     },
     {
       role: "Lead Software Engineer",
@@ -179,6 +177,20 @@ const workExperiences = {
       companylogo: require("./assets/images/ta-logo.jpeg"),
       date: "March 2017 – March 2024",
       desc: "Worked as a Lead Software Engineer at TreatAnyone, a healthtech startup in the US. I was responsible for developing and maintaining the company's core health services platform, which is used by thousands of users in the US.",
+    },
+    {
+      role: "Senior Software Engineer",
+      company: "Weteachme",
+      companylogo: require("./assets/images/weteachme.png"),
+      date: "August 2014 – March 2017",
+      desc: "Worked as a Senior Software Engineer at Weteachme, an edtech startup in Australia."
+    },
+    {
+      role: "Software Engineer",
+      company: "Proudcloud",
+      companylogo: require("./assets/images/pc-logo.png"),
+      date: "July 2013 – March 2014",
+      desc: "Worked as a Software Engineer at Proudcloud, a software development company in the Philippines. Primarily worked on developing Audition Magic, a web-based audition management system for talent agencies.",
     },
   ]
 };
@@ -198,36 +210,35 @@ const bigProjects = {
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Metromart",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
-        }
-        //  you can add extra buttons here.
-      ]
-    },
-    {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Puzzel",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "https://frollo.com.au/"
-        }
-      ]
-    },
-    {
-      image: require("./assets/images/nextuLogo.webp"),
+      image: require("./assets/images/frollo.png"),
       projectName: "Frollo",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectDesc: "A financial wellness app that helps you to manage your money and reach your financial goals.",
       footerLink: [
         {
           name: "Visit Website",
           url: "https://frollo.com.au/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/metromart.png"),
+      projectName: "Metromart",
+      projectDesc: "An online grocery delivery service that allows you to shop for groceries from your favorite supermarkets and have them delivered to your doorstep.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://www.metromart.com/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/puzzel.png"),
+      projectName: "Puzzel Ticketing",
+      projectDesc: "Never let a ticket go unresolved. Empower agents with a clear overview of inbound ticket queues and prioritisation, enabling them to resolve tickets faster.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://www.puzzel.com/platform/case-management/ticketing"
         }
       ]
     }
