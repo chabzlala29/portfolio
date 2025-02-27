@@ -23,7 +23,7 @@ const greeting = {
   username: "Charles Pobre",
   title: "Hi all, I'm Charles",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A passionate Full Stack Software Developer 🚀 with extensive experience in building scalable web applications using Ruby on Rails, Node.js, TypeScript, and modern frameworks. Skilled in creating robust, high-performance systems with a strong focus on DevOps practices to streamline development and deployment processes."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
@@ -37,7 +37,7 @@ const socialMediaLinks = {
   linkedin: "https://www.linkedin.com/in/charles-pobre/",
   gmail: "cpobre.peg@gmail.com",
   //gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/chabzpobre",
+  // facebook: "https://www.facebook.com/chabzpobre",
   //medium: "https://medium.com/@saadpasta",
   //stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
   // Instagram, Twitter and Kaggle are also supported in the links!
@@ -52,12 +52,14 @@ const skillsSection = {
   subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Create highly maintenable and scalable web applications using Ruby on Rails, Node.js, TypeScript, and modern frameworks"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
+      "⚡ Automate development and deployment processes using Docker, Kubernetes, and CI/CD pipelines",
+    ),
+    emoji(
+      "⚡ Implement SEO best practices to improve website visibility and ranking on search engines"
+    ),
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -89,10 +91,6 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
     },
@@ -103,10 +101,6 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "aws",
       fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
     },
     {
       skillName: "docker",
@@ -122,23 +116,15 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      schoolName: "Central Luzon State University",
+      logo: require("./assets/images/clsu-logo.png"),
+      subHeader: "Bachelor of Science in Information Technology",
+      duration: "June 2007 - April 2012"
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "St. Joseph High School",
+      logo: require("./assets/images/st-joseph.jpeg"),
+      duration: "June 2003 - April 2007"
     }
   ]
 };
@@ -149,17 +135,25 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "70%" //Insert relative proficiency in percentage
-    },
-    {
-      Stack: "Backend",
+      Stack: "Ruby on Rails",
       progressPercentage: "100%"
     },
     {
-      Stack: "Programming",
-      progressPercentage: "100%"
-    }
+      Stack: "NodeJS/TypeScript",
+      progressPercentage: "90%"
+    },
+    {
+      Stack: "NextJS/React",
+      progressPercentage: "80%"
+    },
+    {
+      Stack: "DevOps",
+      progressPercentage: "90%"
+    },
+    {
+      Stack: "SEO",
+      progressPercentage: "80%"
+    },
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
@@ -170,30 +164,22 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Senior Software Engineer",
+      company: "MoneyForward Kessai",
+      companylogo: require("./assets/images/mf-kessai.png"),
+      date: "July 2024 – Present",
+      desc: "Worked as a Senior Software Engineer at MoneyForward Kessai, a fintech company in Japan. I am responsible for developing and maintaining the company's core financial services platform, which is used by millions of users in Japan.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Developed and maintained Pay for Business application using Ruby on Rails and React",
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Lead Software Engineer",
+      company: "TreatAnyone",
+      companylogo: require("./assets/images/ta-logo.jpeg"),
+      date: "March 2017 – March 2024",
+      desc: "Worked as a Lead Software Engineer at TreatAnyone, a healthtech startup in the US. I was responsible for developing and maintaining the company's core health services platform, which is used by thousands of users in the US.",
     },
-    {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    }
   ]
 };
 
@@ -213,7 +199,7 @@ const bigProjects = {
   projects: [
     {
       image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "TreatAnyone",
+      projectName: "Metromart",
       projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       footerLink: [
         {
@@ -221,6 +207,17 @@ const bigProjects = {
           url: "http://saayahealth.com/"
         }
         //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/nextuLogo.webp"),
+      projectName: "Puzzel",
+      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://frollo.com.au/"
+        }
       ]
     },
     {
@@ -368,8 +365,8 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  number: "+81-07093288097",
+  email_address: "cpobre.peg@gmail.com"
 };
 
 // Twitter Section
