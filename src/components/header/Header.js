@@ -6,6 +6,7 @@ import StyleContext from "../../contexts/StyleContext";
 import {
   greeting,
   workExperiences,
+  bigProjects,
   skillsSection,
   //blogSection,
   resumeSection
@@ -14,6 +15,7 @@ import {
 function Header() {
   const {isDark} = useContext(StyleContext);
   const viewExperience = workExperiences.display;
+  const viewBigProjects = bigProjects.display;
   const viewSkills = skillsSection.display;
   // const viewBlog = blogSection.display;
   const viewResume = resumeSection.display;
@@ -43,6 +45,11 @@ function Header() {
           {viewExperience && (
             <li>
               <a href="#experience">Work Experiences</a>
+            </li>
+          )}
+          {viewBigProjects && (
+            <li>
+              <a href="#projects">Projects</a>
             </li>
           )}
           {viewResume && (

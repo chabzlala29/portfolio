@@ -21,6 +21,7 @@ const illustration = {
 
 const greeting = {
   username: "Charles Pobre",
+  splashName: '「ポボルチャールズ」',
   title: "Hi all, I'm Charles",
   subTitle: emoji(
     "A passionate Full Stack Software Developer 🚀 with extensive experience in building scalable web applications using Ruby on Rails, Node.js, TypeScript, and modern frameworks. Skilled in creating robust, high-performance systems with a strong focus on DevOps practices to streamline development and deployment processes."
