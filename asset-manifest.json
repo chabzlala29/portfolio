@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/static/css/main.c753b2ad.css",
-    "main.js": "/static/js/main.c03d59ae.js",
+    "main.css": "/static/css/main.211a6de8.css",
+    "main.js": "/static/js/main.cee0bc4d.js",
     "static/css/64.bba8fa55.chunk.css": "/static/css/64.bba8fa55.chunk.css",
     "static/js/64.13b0ef9a.chunk.js": "/static/js/64.13b0ef9a.chunk.js",
     "static/css/769.b3cbb36b.chunk.css": "/static/css/769.b3cbb36b.chunk.css",
-    "static/js/769.38d9f0f8.chunk.js": "/static/js/769.38d9f0f8.chunk.js",
+    "static/js/769.99fc47b3.chunk.js": "/static/js/769.99fc47b3.chunk.js",
     "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
     "static/media/resume.pdf": "/static/media/resume.121f152938683686012d.pdf",
     "static/media/clsu-logo.png": "/static/media/clsu-logo.b4382dbf2fd0eecb5466.png",
@@ -23,15 +23,15 @@
     "static/media/skill.svg": "/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
     "static/media/pwaLogo.webp": "/static/media/pwaLogo.8bf2293da0ca66249e37.webp",
     "index.html": "/index.html",
-    "main.c753b2ad.css.map": "/static/css/main.c753b2ad.css.map",
-    "main.c03d59ae.js.map": "/static/js/main.c03d59ae.js.map",
+    "main.211a6de8.css.map": "/static/css/main.211a6de8.css.map",
+    "main.cee0bc4d.js.map": "/static/js/main.cee0bc4d.js.map",
     "64.bba8fa55.chunk.css.map": "/static/css/64.bba8fa55.chunk.css.map",
     "64.13b0ef9a.chunk.js.map": "/static/js/64.13b0ef9a.chunk.js.map",
     "769.b3cbb36b.chunk.css.map": "/static/css/769.b3cbb36b.chunk.css.map",
-    "769.38d9f0f8.chunk.js.map": "/static/js/769.38d9f0f8.chunk.js.map"
+    "769.99fc47b3.chunk.js.map": "/static/js/769.99fc47b3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c753b2ad.css",
-    "static/js/main.c03d59ae.js"
+    "static/css/main.211a6de8.css",
+    "static/js/main.cee0bc4d.js"
   ]
 }
