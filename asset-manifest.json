@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.ad58122a.css",
-    "main.js": "/static/js/main.ca8aa901.js",
+    "main.css": "/static/css/main.c753b2ad.css",
+    "main.js": "/static/js/main.b3426cf6.js",
     "static/css/64.bba8fa55.chunk.css": "/static/css/64.bba8fa55.chunk.css",
     "static/js/64.13b0ef9a.chunk.js": "/static/js/64.13b0ef9a.chunk.js",
     "static/css/769.b3cbb36b.chunk.css": "/static/css/769.b3cbb36b.chunk.css",
@@ -23,15 +23,15 @@
     "static/media/skill.svg": "/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
     "static/media/pwaLogo.webp": "/static/media/pwaLogo.8bf2293da0ca66249e37.webp",
     "index.html": "/index.html",
-    "main.ad58122a.css.map": "/static/css/main.ad58122a.css.map",
-    "main.ca8aa901.js.map": "/static/js/main.ca8aa901.js.map",
+    "main.c753b2ad.css.map": "/static/css/main.c753b2ad.css.map",
+    "main.b3426cf6.js.map": "/static/js/main.b3426cf6.js.map",
     "64.bba8fa55.chunk.css.map": "/static/css/64.bba8fa55.chunk.css.map",
     "64.13b0ef9a.chunk.js.map": "/static/js/64.13b0ef9a.chunk.js.map",
     "769.b3cbb36b.chunk.css.map": "/static/css/769.b3cbb36b.chunk.css.map",
     "769.38d9f0f8.chunk.js.map": "/static/js/769.38d9f0f8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ad58122a.css",
-    "static/js/main.ca8aa901.js"
+    "static/css/main.c753b2ad.css",
+    "static/js/main.b3426cf6.js"
   ]
 }
