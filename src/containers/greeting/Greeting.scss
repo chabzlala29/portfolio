@@ -48,6 +48,11 @@
   color: $textColor !important;
 }
 
+.greeting-text-white {
+  @extend .greeting-text;
+  color: white !important;
+}
+
 .greeting-text-p {
   font-size: 30px;
   line-height: 40px;
