@@ -15,7 +15,7 @@ function Header() {
   const {isDark} = useContext(StyleContext);
   const viewExperience = workExperiences.display;
   const viewSkills = skillsSection.display;
-  const viewBlog = blogSection.display;
+  // const viewBlog = blogSection.display;
   const viewResume = resumeSection.display;
 
   return (
@@ -43,11 +43,6 @@ function Header() {
           {viewExperience && (
             <li>
               <a href="#experience">Work Experiences</a>
-            </li>
-          )}
-          {viewBlog && (
-            <li>
-              <a href="#blogs">Blogs</a>
             </li>
           )}
           {viewResume && (
